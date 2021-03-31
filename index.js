@@ -65,4 +65,4 @@ app.get('/', (req, res) => {
     res.send('Hello Buddy');
 })
 
-app.listen(port);
+app.listen(process.env.PORT || port);
